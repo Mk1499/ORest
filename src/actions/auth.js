@@ -66,7 +66,10 @@ export const authEntry = (userType,errMsg) => dispatch => {
   if (userToken != undefined) {
     let decoded = jwtDecode(userToken);
     let tokenType = decoded.userData.type;
-    if (tokenType !== userType) history.push("/");
+    if (tokenType !== userType) {
+      alert(`you should be a ${userToken} to do this action`)
+      history.push("/");
+    }
   } else {
     alert(errMsg)
     history.push("/signin");
