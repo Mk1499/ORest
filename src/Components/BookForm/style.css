@@ -1,0 +1,27 @@
+.bookCard {
+    margin-left: 33%;
+    position: fixed;
+    z-index: 40;
+    top: 39vh;
+    padding: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px;
+    display: none;
+    text-align: left;
+  }
+  .closeBtn {
+      position: relative;
+      top: -33vh;
+    left: 112%;
+      border-radius: 50%;
+      width: 3vw;
+      height: 3vw;
+  }
+  
+  .dateDiv{
+      margin-bottom: 2rem;
+  }
+
+  .personsSelect{
+    margin-left: 1.5vw
+  }

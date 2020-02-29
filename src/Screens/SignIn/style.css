@@ -1,0 +1,14 @@
+.signInSection{
+    height: 51vh;
+    padding-top: 20vh;
+}
+
+/* .signInSection input{
+    width: 26vw;
+} */
+.signInSection label {
+    font-size: 2rem;
+}
+.signInSection .linkDiv {
+    margin: 2vh 0;
+}

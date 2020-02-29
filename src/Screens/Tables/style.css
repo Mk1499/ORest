@@ -1,0 +1,25 @@
+.addBtn {
+  position: fixed;
+  top: 85vh;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  font-size: 2vw;
+  box-shadow: 10px 10px 5px grey;
+  left: 91vw;
+}
+
+@media  (max-width: 500px) {
+  .addBtn {
+    position: fixed;
+    top: 90vh;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    box-shadow: 5px 5px 5px grey;
+    left: 80%;
+    text-align: center;
+    padding: 2px;
+  }
+}

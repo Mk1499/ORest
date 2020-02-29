@@ -1,0 +1,14 @@
+td {
+  text-align: left;
+}
+.dateFilter {
+  margin-bottom: 5%;
+}
+.results {
+  margin-top: 10%;
+}
+.dateLabel {
+  margin-right: 3%;
+  font-size: 1.1vw;
+}
+
